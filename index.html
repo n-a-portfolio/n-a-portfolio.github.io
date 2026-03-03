@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">N/A</div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Переключить тему">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Привет!</h1>
+            <p>Я начинающий frontend-разработчик.</p>
+            <a href="#projects" class="btn">Посмотреть работы</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">О себе</h2>
+            <p style="max-width: 800px; margin: 0 auto; text-align: center;">
+              Обучаюсь веб-разработке начиная с 19.02.2026.
+            </p>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3>Разработка сайтов</h3>
+                    <p>Создание сайтов на HTML, CSS, JavaScript, но присылаю я вам его в виде файлов.</p>
+                    <span class="price">от 18 000₸</span>
+                </div>
+                <br>
+                <div class="service-card">
+                    <i class="fas fa-code service-icon"></i>
+                    <h3>Разработка сайтов под ключ</h3>
+                    <p>Разрабатываю сайт, и открываю его в GitHub Pages.</p>
+                    <span class="price">от 25 000₸</span>
+                </div>
+                <br>
+                <div class="service-card">
+                    <i class="fas fa-user-cog service-icon"></i>
+                    <h3>Администрирование сайтов</h3>
+                    <p>Обновляю данные в сайте в промежутке от 14:00 до 20:00 в любой день.<br> Так же доработка сайтов входит в стоимость.</p>
+                    <span class="price">10 000-25 000₸ в неделю<br> или<br> 40 000-100 000₸ в месяц</span>
+                </div>
+                <br>
+                <div class="service-card">
+                    <i class="fas fa-wrench service-icon"></i>
+                    <h3>Доработка сайтов</h3>
+                    <p>Добавляю небольшие изменения или абсолютно новые функции на уже готовом сайте.</p>
+                    <span class="price">от 1 500₸ до 10 000₸</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>LogoLand</h3>
+                        <p>Мой первый проект. Занимался этим проектом 2 дня: начинал 24.02.2026, закончил 26.02.2026. Оплатили 55 000₸ за проект.</p>
+                        <div class="project-links">
+                            <a href="https://logoland-main.github.io">Перейти на сайт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-links">
+                <a href="https://wa.me/77757959411"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <br>
+            <p style="max-width: 800px; margin: 0 auto; text-align: center; color: var(--secondary-color);">нажмите на иконку, чтобы перейти по ссылке</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="scripts/script3.js"></script>
+</body>
+  </html>
