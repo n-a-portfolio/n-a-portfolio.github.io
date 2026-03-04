@@ -24,7 +24,6 @@ function setTheme(theme) {
         icon.classList.remove('fa-sun');
         icon.classList.add('fa-moon');
     }
-    // Сохраняем выбор
     localStorage.setItem('theme', theme);
 }
 
